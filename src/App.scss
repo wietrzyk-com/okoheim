@@ -8,6 +8,7 @@
 //   "light": $light,
 //   "dark": $dark,
 // );
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 $primary: #00d97b;
 $danger: #ff4136;
@@ -15,8 +16,16 @@ $mainColor: #00968f;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 header {
   background-color: $mainColor;
+
+  img {
+    margin-top: 12px;
+  }
 }
 
 main {

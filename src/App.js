@@ -1,4 +1,5 @@
-import logo from "./gfx/logo.png";
+import React from "react";
+import logo from "./gfx/logo_white.svg";
 import logoP from "./gfx/logo_p.png";
 import "./App.scss";
 
@@ -7,7 +8,7 @@ function App() {
     <div className="layout">
       <header>
         <div className="container">
-          <img src={logo} alt="okoheim" />
+          <img src={logo} alt="okoheim" height="35" />
         </div>
       </header>
       <main>
