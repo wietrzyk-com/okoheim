@@ -1,0 +1,17 @@
+{
+  "common": {
+    "companyName": "Ökoheim"
+  },
+  "header": {
+    "aboutUs": "Über uns",
+    "offer": "Angebot",
+    "contact": "Kontakt",
+    "projects": "Projekte",
+    "subsidies": "Zuschusse",
+    "support": "Kundendienst"
+  },
+  "hero": {
+    "slogan": "Nachhaltige Heizungladen",
+    "contactUs": "Kontaktiere Uns"
+  }
+}
