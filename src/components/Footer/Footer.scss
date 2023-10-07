@@ -1,0 +1,21 @@
+@import '../../common.scss';
+
+footer {
+  background: linear-gradient(120deg, $mainColor 50%,  $altLightBackground 50%);
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0;
+    div:first-child {
+      img {
+        width: 25%;
+      }
+    }
+    div:last-child {
+      padding-top: 80px;
+    }
+  }
+
+
+}

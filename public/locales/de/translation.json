@@ -13,5 +13,18 @@
   "hero": {
     "slogan": "Nachhaltige Heizungladen",
     "contactUs": "Kontaktiere Uns"
+  },
+  "aboutUs": {
+    "title": "Über Uns",
+    "text": "ÖKOHEIM ist ein deutsches Unternehmen mit polnischen Wurzeln. Seit 2014 sind wir kontinuierlich auf dem polnischen Sanitärmarkt tätig, zunächst als Planungsbüro für Sanitärinstallationen. \nDas dynamische Wachstum und die Marktnachfrage haben unser Geschäft in Richtung Contracting getrieben, sodass wir seit 2020 in der Installation von Wärmepumpen, Photovoltaikanlagen, Klima- und Lüftungsanlagen sowie Wasser- und Abwasseranlagen für unsere Kunden tätig sind. 2022 haben wir unseren Tätigkeitsbereich über Polen hinaus erweitert. \nSeitdem haben wir viele Modernisierungen bestehender Kesselanlagen mit modernen hydraulischen Systemen auf Basis von Vaillant und Mitsubishi Wärmepumpen erfolgreich abgeschlossen.",
+    "mainImageDescription": "Wärmepumpen",
+    "image1Description": "Wärmepumpen",
+    "image2Description": "Wärmepumpen",
+    "image3Description": "Wärmepumpen",
+    "timelineDescription": "Im Laufe der Zeit",
+    "timelineTitle": "Im Laufe der Zeit",
+    "timelineSubtitle": "2014-2023",
+    "aboutMeTitle": "Über mich",
+    "aboutMeText": "Ich bin Firmengründer und habe an der Technischen Universität Breslau im Fachbereich Umwelttechnik studiert, wo ich 2012 meinen Master of Engineering erwarb. 2017 erhielt ich die Lizenz zur Planung und Leitung von Bauarbeiten ohne Einschränkungen im Bereich Netze, Anlagen und Wärmegeräte, Lüftungen, Gas, Wasserversorgung sowie Abwasser  und Klimaanlagen. \nIch arbeite seit Jahren mit großen Unternehmen und Installationsgroßhändlern in Polen und Deutschland zusammen. Ebenfalls bin ich Mitglied der Niederschlesischen Ingenieurkammer für Bauwesen und der Deutschen Handwerkskammer in Berlin. \nPrivat verbringe ich gerne die Zeit aktiv mit meinen zwei Kindern und meiner Frau. Wir genießen die Berge und das Wasser beim Skifahren, Segeln und Fahrradfahren. "
   }
 }

@@ -1,0 +1,10 @@
+.Contact {
+  .container {
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    > div {
+      padding: 0 30px;
+    }
+  }
+}

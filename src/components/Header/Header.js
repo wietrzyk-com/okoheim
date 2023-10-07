@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../gfx/logo_white.svg";
+import logo from "../../gfx/logo_white.svg";
 import { useTranslation } from 'react-i18next';
 import "./Header.scss";
 
