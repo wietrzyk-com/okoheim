@@ -7,7 +7,7 @@ export default function Contact() {
         <section className="Contact">
             <div className="container">
                 <div>
-                    // TODO: Map here
+                    TODO: Map here
                 </div>
                 <div>
                     <h2>{t('contact.Title')}</h2>
