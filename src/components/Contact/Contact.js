@@ -53,6 +53,7 @@ export default function Contact() {
                 <div>
                     <h2>{t('contact.Title')}</h2>
                     <form id="contactForm" name="contact" data-netlify={true}>
+                        <input type="hidden" name="form-name" value="contact" />
                     <div className="mb-3">
                         <label htmlFor="formEmail" className="form-label">{t('contact.Email')}</label>
                         <div className="input-group has-validation">
