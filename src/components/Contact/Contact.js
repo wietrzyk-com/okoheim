@@ -14,6 +14,8 @@ export default function Contact() {
     const [ phone, setPhone ] = useState('');
     const [ message, setMessage ] = useState('');
 
+    const [ formState, setFormState ] = useState('default')
+
     const validateEmail = () => {
         setEmail(email);
         return validator.isEmail(email)
@@ -30,15 +32,17 @@ export default function Contact() {
     }
 
     const handleSubmit = () => {
-        const formData = new FormData(document.getElementById('contactForm'));
-
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(formData).toString(),
+            body: new URLSearchParams({
+                phone,
+                email,
+                message
+            }).toString(),
         })
-            .then(() => console.log("Form successfully submitted"))
-            .catch((error) => alert(error));
+            .then(() => setFormState('success'))
+            .catch((error) => setFormState('error'));
     };
 
     return (
@@ -52,6 +56,9 @@ export default function Contact() {
                 </iframe>
                 <div>
                     <h2>{t('contact.Title')}</h2>
+
+                    { formState === 'default' &&
+
                     <form id="contactForm" name="contact" data-netlify={true}>
                         <input type="hidden" name="form-name" value="contact" />
                     <div className="mb-3">
@@ -109,6 +116,19 @@ export default function Contact() {
                     }
                     } className="btn btn-outline-secondary"> {t('contact.Send')} </a>
                     </form>
+                }
+
+                    { formState === 'sent' &&
+                     <p>
+                         {t('contact.Success')}
+                     </p>
+                    }
+
+                    { formState === 'error' &&
+                    <p>
+                        {t('contact.Error')}
+                    </p> }
+                }
                 </div>
             </div>
         </section>
