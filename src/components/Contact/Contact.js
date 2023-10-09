@@ -115,10 +115,8 @@ export default function Contact() {
                         alert('sent!')
                     }
                     } className="btn btn-outline-secondary"> {t('contact.Send')} </a>
-                    </form>
-                }
-
-                    { formState === 'sent' &&
+                    </form> }
+                    { formState === 'success' &&
                      <p>
                          {t('contact.Success')}
                      </p>
@@ -128,7 +126,6 @@ export default function Contact() {
                     <p>
                         {t('contact.Error')}
                     </p> }
-                }
                 </div>
             </div>
         </section>
