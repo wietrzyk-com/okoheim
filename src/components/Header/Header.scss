@@ -1,6 +1,7 @@
 @import "../../common";
 
 header {
+  z-index: 2000;
   box-shadow: #002d2b50 0 3px 5px;
   position: fixed;
   width: 100%;
