@@ -112,7 +112,6 @@ export default function Contact() {
                             return false;
                         }
                         handleSubmit()
-                        alert('sent!')
                     }
                     } className="btn btn-outline-secondary"> {t('contact.Send')} </a>
                     </form> }
