@@ -2,6 +2,9 @@
   "common": {
     "companyName": "Ökoheim"
   },
+  "howWeWork": {
+    "title": "Wie&nbsp;machen wir&nbsp;uns?"
+  },
   "header": {
     "aboutUs": "Über uns",
     "offer": "Angebot",

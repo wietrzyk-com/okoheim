@@ -6,6 +6,7 @@ import image2 from './image2.png'
 import image3 from './image3.png'
 import timeline from './timeline.png'
 import aboutMeImage from './aboutMeImage.png'
+import { Slide } from "react-awesome-reveal";
 
 export default function AboutUs (
     ) {
@@ -47,12 +48,14 @@ export default function AboutUs (
             <div>
                 <div className="container">
                     <img src={aboutMeImage} alt={t('aboutUs.aboutMeImageDescription')} />
-                    <div>
-                        <h2>
-                            {t('aboutUs.aboutMeTitle')}
-                        </h2>
-                        {t('aboutUs.aboutMeText').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
-                    </div>
+                    <Slide direction="right" triggerOnce>
+                        <div>
+                            <h2>
+                                {t('aboutUs.aboutMeTitle')}
+                            </h2>
+                            {t('aboutUs.aboutMeText').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+                        </div>
+                    </Slide>
                 </div>
             </div>
         </section>
