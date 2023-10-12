@@ -1,5 +1,10 @@
 import "./Footer.scss";
 import logo from './logo.png';
+import vaillantImg from './vaillant.png';
+import teceImg from './tece.png';
+import loxoneImg from './loxone.png';
+import mitsubishiImg from './mitsubishi.png';
+import { Fade } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
@@ -8,11 +13,43 @@ export default function Footer() {
         <footer className>
             <div className="container">
                 <div>
+                    <Fade triggerOnce delay={500}>
                     <img alt={t('common.companyName')} src={logo} />
+                    </Fade>
+                    <p>
+                        <span className="name">{t('footer.person1Name')}</span>
+                        <br />
+                        <span className="education">{t('footer.person1Education')}</span>
+                        <br />
+                        <span className="position">{t('footer.person1Position')}</span>
+                        <br />
+                        <a href={`callto://${t('footer.person1Phone')}`}>{t('footer.person1Phone')}</a>
+                    </p>
+                    <p>
+                        <span className="name">{t('footer.person2Name')}</span>
+                        <br />
+                        <span className="education">{t('footer.person2Education')}</span>
+                        <br />
+                        <span className="position">{t('footer.person2Position')}</span>
+                        <br />
+                        <a href={`callto://${t('footer.person2Phone')}`}>{t('footer.person2Phone')}</a>
+                    </p>
+                    <p>
+                        <a href={`mailto:${t('common.email')}`} className="email">{t('common.email')}</a>
+                    </p>
                 </div>
-                <div>
-                    <h6>{t('common.companyName')}</h6>
+                <div className="partners">
+                    <h5>{t('common.companyName')}</h5>
                     {t('common.companyAddress').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+                    {t('common.companyAccounts').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+
+                    <h5>{t('footer.partnersTitle')}</h5>
+                    <div>
+                        <img src={mitsubishiImg} alt="Mitsubishi" />
+                        <img src={vaillantImg} alt="Vaillant" />
+                        <img src={loxoneImg} alt="Loxone" />
+                        <img src={teceImg} alt="TECE" />
+                    </div>
                 </div>
 
             </div>

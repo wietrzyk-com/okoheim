@@ -46,7 +46,7 @@ export default function Contact() {
     };
 
     return (
-        <section className="Contact">
+        <section id="contactSection" className="Contact">
             <div className="container">
                 <iframe
                     title="Google Maps"
@@ -55,14 +55,14 @@ export default function Contact() {
                     allowFullScreen>
                 </iframe>
                 <div>
-                    <h2>{t('contact.Title')}</h2>
+                    <h2>{t('contact.title')}</h2>
 
                     { formState === 'default' &&
 
                     <form id="contactForm" name="contact" data-netlify={true}>
                         <input type="hidden" name="form-name" value="contact" />
                     <div className="mb-3">
-                        <label htmlFor="formEmail" className="form-label">{t('contact.Email')}</label>
+                        <label htmlFor="formEmail" className="form-label">{t('contact.email')}</label>
                         <div className="input-group has-validation">
                             <input value={email} onChange={e => setEmail(e.currentTarget.value)} onBlur={() => {
                                 if (email) {
@@ -71,15 +71,15 @@ export default function Contact() {
                                     setErrorEmail(false)
                                 }
                             }
-                            } type="email" placeholder={t('contact.EmailPlaceholder')} className={`${errorEmail ? 'is-invalid' : ''} form-control`} id="formEmail" />
+                            } type="email" placeholder={t('contact.emailPlaceholder')} className={`${errorEmail ? 'is-invalid' : ''} form-control`} id="formEmail" />
                             { errorEmail && <div className="invalid-feedback">
-                                {t('contact.ErrorEmailMessage')}
+                                {t('contact.errorEmailMessage')}
                             </div> }
                         </div>
                     </div>
 
                     <div className="mb-3">
-                        <label htmlFor="formPhone" className="form-label">{t('contact.Phone')}</label>
+                        <label htmlFor="formPhone" className="form-label">{t('contact.phone')}</label>
                         <div className="input-group has-validation">
                             <input value={phone} onChange={e => setPhone(e.currentTarget.value)} onBlur={() => {
                                 if (phone) {
@@ -88,19 +88,19 @@ export default function Contact() {
                                     setErrorPhone(false)
                                 }
                             }
-                            } type="text" placeholder={t('contact.PhonePlaceholder')} className={`${errorPhone ? 'is-invalid' : ''} form-control`} id="formPhone" />
+                            } type="text" placeholder={t('contact.phonePlaceholder')} className={`${errorPhone ? 'is-invalid' : ''} form-control`} id="formPhone" />
                             { errorPhone && <div className="invalid-feedback">
-                                {t('contact.ErrorPhoneMessage')}
+                                {t('contact.errorPhoneMessage')}
                             </div> }
                         </div>
                     </div>
 
                     <div className="mb-3">
-                        <label htmlFor="formMessage" className="form-label">{t('contact.Message')}</label>
+                        <label htmlFor="formMessage" className="form-label">{t('contact.message')}</label>
                         <div className="input-group has-validation">
                             <textarea
                                 onChange={e => setMessage(e.currentTarget.value)}
-                                rows={3} placeholder={t('contact.MessagePlaceholder')}
+                                rows={3} placeholder={t('contact.messagePlaceholder')}
                                 className='form-control' id="formMessage">{ message }</textarea>
                         </div>
                     </div>
@@ -111,19 +111,23 @@ export default function Contact() {
                             setErrorPhone(true);
                             return false;
                         }
+
+                        if (errorEmail || errorPhone) {
+                            return false;
+                        }
                         handleSubmit()
                     }
-                    } className="btn btn-outline-secondary"> {t('contact.Send')} </a>
+                    } className="btn btn-outline-secondary"> {t('contact.send')} </a>
                     </form> }
                     { formState === 'success' &&
                      <p>
-                         {t('contact.Success')}
+                         {t('contact.success')}
                      </p>
                     }
 
                     { formState === 'error' &&
                     <p>
-                        {t('contact.Error')}
+                        {t('contact.error')}
                     </p> }
                 </div>
             </div>
