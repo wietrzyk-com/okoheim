@@ -14,7 +14,7 @@ export default function Hero() {
                 <div>
                     <p className="display-3 w-50">{t("hero.slogan")}</p>
                     <p className="last">
-                        <a className="btn btn-outline-primary btn-lg" href="/kontakt">{t("hero.contactUs")}</a>
+                        <a onClick={() => navigate("#kontakt")} className="btn btn-outline-primary btn-lg" href="#kontakt">{t("hero.contactUs")}</a>
                     </p>
                 </div>
                 <div className="arrow-container">

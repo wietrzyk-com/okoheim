@@ -12,7 +12,7 @@ export default function Header () {
     return (
         <header>
             <div className="container">
-                <a href="/">
+                <a onClick={() => navigate('/#top')}  href="#top">
                     <img src={logo} alt={t('common.companyName')} height="25" />
                 </a>
                 <h1>{t('common.companyName')}</h1>

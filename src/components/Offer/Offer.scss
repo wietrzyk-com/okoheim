@@ -1,0 +1,52 @@
+@import '../../common.scss';
+
+#angebot {
+  padding-block: 80px;
+  color: $background;
+  background: linear-gradient(90deg, $mainColor 50%,  $altBackground 50%);
+  .container {
+    > div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      a:hover {
+        background-color:  #ffffff90;
+      }
+
+      a, a:visited, a:active {
+        transition: background-color 0.5s ease;
+        cursor: pointer;
+        display: block;
+        padding: 0 30px 30px 0;
+        background-color: #ffffffd0;
+        width: 30%;
+        text-decoration: none;
+
+        img:first-child {
+          margin-bottom: 30px;
+          height: 20em;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        span {
+          color: $text;
+          padding-left: 30px;
+          font-size: 150%;
+          font-weight: 700;
+        }
+
+        img:first-child {
+          margin-bottom: 30px;
+        }
+
+        img:last-child {
+          display: block;
+          margin: 30px auto 0;
+          width: calc(80% - 60px);
+        }
+      }
+    }
+  }
+}

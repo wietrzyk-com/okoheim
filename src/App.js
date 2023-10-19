@@ -14,6 +14,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
 import Contact from "./components/Contact/Contact";
 import HowWeWork from "./components/HowWeWork/HowWeWork";
+import Offer from "./components/Offer/Offer";
 
 const PageContent = () => {
     const location = useLocation();
@@ -41,9 +42,11 @@ const PageContent = () => {
 
     return (
         <>
+            <div id="top" />
             <Hero />
             <AboutUs />
             <HowWeWork />
+            <Offer />
             <Contact />
         </>
     )
@@ -57,7 +60,7 @@ function App() {
             <div style={{height: "55px"}}> </div>
             <main>
                 <Routes>
-                    <Route path="/*" element={<PageContent />} />
+                    <Route path="/" element={<PageContent />} />
                 </Routes>
             </main>
             <Footer />
