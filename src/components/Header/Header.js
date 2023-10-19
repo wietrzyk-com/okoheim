@@ -20,6 +20,7 @@ export default function Header () {
                     <li><a onClick={() => navigate('/#uber-uns')} href="#uber-uns">{t('header.aboutUs')}</a></li>
                     <li><a onClick={() => navigate('/#angebot')} href="#angebot">{t('header.offer')}</a></li>
                     <li><a onClick={() => navigate('/#projekte')} href="#projekte">{t('header.projects')}</a></li>
+                    <li><a onClick={() => navigate('/zuschusse')} href="/zuschusse">{t('header.subventions')}</a></li>
                     <li><a onClick={() => navigate('/#kontakt')} href="#kontakt">{t('header.contact')}</a></li>
                 </ul>
                 <a onClick={() => navigate('/#kontakt')} href="#kontakt" className="btn btn-outline-secondary">{t('header.support')}</a>

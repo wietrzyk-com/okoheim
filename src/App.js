@@ -18,6 +18,7 @@ import Offer from "./components/Offer/Offer";
 import Projects from "./components/Projects/Projects";
 import OfferMitsubishi from "./components/Offer/Mistubishi/OfferMitsubishi";
 import OfferVaillant from "./components/Offer/Vaillant/OfferVaillant";
+import Subventions from "./components/Subventions/Subventions";
 
 const PageContent = () => {
     const location = useLocation();
@@ -74,6 +75,12 @@ function App() {
                     </>} />
                     <Route path="/angebot/warmepumpe/vaillant" element={<>
                         <OfferVaillant />
+                        <HowWeWork />
+                        <Projects />
+                        <Contact />
+                    </>} />
+                    <Route path="/zuschusse"element={<>
+                        <Subventions />
                         <HowWeWork />
                         <Projects />
                         <Contact />
