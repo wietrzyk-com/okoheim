@@ -51,7 +51,7 @@ export default function Contact() {
                 <iframe
                     title="Google Maps"
                     style={{ border: 0 }}
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDnKUtBdy6dVQuvd5JTcZYai0njjRcZiA8&q=Zielna%2028b%2F4%2C%20Wroc%C5%82aw"
+                    src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyDnKUtBdy6dVQuvd5JTcZYai0njjRcZiA8&q=${encodeURIComponent(t('contact.mapLocation'))}`}
                     allowFullScreen>
                 </iframe>
                 <div>

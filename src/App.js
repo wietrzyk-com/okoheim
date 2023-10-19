@@ -16,6 +16,8 @@ import Contact from "./components/Contact/Contact";
 import HowWeWork from "./components/HowWeWork/HowWeWork";
 import Offer from "./components/Offer/Offer";
 import Projects from "./components/Projects/Projects";
+import OfferMitsubishi from "./components/Offer/Mistubishi/OfferMitsubishi";
+import OfferVaillant from "./components/Offer/Vaillant/OfferVaillant";
 
 const PageContent = () => {
     const location = useLocation();
@@ -64,6 +66,18 @@ function App() {
                 <Routes>
                     <Route path="/" element={<PageContent />} />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="/angebot/warmepumpe/mitsubishi" element={<>
+                        <OfferMitsubishi />
+                        <HowWeWork />
+                        <Projects />
+                        <Contact />
+                    </>} />
+                    <Route path="/angebot/warmepumpe/vaillant" element={<>
+                        <OfferVaillant />
+                        <HowWeWork />
+                        <Projects />
+                        <Contact />
+                    </>} />
                 </Routes>
             </main>
             <Footer />

@@ -1,9 +1,12 @@
 {
   "common": {
     "companyName": "Ökoheim",
-    "email": "kontakt@ökoheim.com"
+    "email": "kontakt@ökoheim.com",
+    "companyAddress": "Grodzka 14/2, 55-220 Brzezinki, POLEN",
+    "companyAccounts": "PL 12 1234 1234 1234 1234 1234 1234 1234\nSWIFT/BIC: PLXMBK"
   },
   "contact": {
+    "mapLocation": "Zielna 28B, Wrocław",
     "title": "Kontakt",
     "email": "E-Mail",
     "emailPlaceholder": "Ihre E-Mail",
@@ -55,5 +58,50 @@
     "person2Education": "Dipl.-Ing. Konstruktion",
     "person2Phone": "+48 696 016 177",
     "partnersTitle":  "Partner"
+  },
+  "offer": {
+    "title": "Angebot",
+    "mitsubishi": "Wärmepumpe",
+    "vaillant": "Wärmepumpe",
+    "smarthome": "Smart Homes"
+  },
+  "projects": {
+    "title": "Unsere Projekte",
+    "project1": {
+      "address": "123 Erste Straße, Stadt",
+      "author": "Max Mustermann",
+      "testimonial": "Dieses Projekt war eine fantastische Gelegenheit zu innovieren.",
+      "stars": "5"
+    },
+    "project2": {
+      "address": "456 Zweite Straße, Stadt",
+      "author": "Anna Schmidt",
+      "testimonial": "Eine herausfordernde, doch lohnende Erfahrung.",
+      "stars": "4"
+    },
+    "project3": {
+      "address": "789 Dritte Straße, Stadt",
+      "author": "Johann Braun",
+      "testimonial": "Wirklich ein bahnbrechendes Projekt!",
+      "stars": "5"
+    },
+    "project4": {
+      "address": "101 Zwölfte Straße, Stadt",
+      "author": "Elisabeth Johnson",
+      "testimonial": "Wir haben die Grenzen des Möglichen erweitert!",
+      "stars": "5"
+    },
+    "project5": {
+      "address": "202 Dreizehnte Straße, Stadt",
+      "author": "Michael Williams",
+      "testimonial": "Eine wunderbare Zusammenarbeit von Köpfen.",
+      "stars": "4"
+    },
+    "project6": {
+      "address": "303 Vierzehnte Straße, Stadt",
+      "author": "Emily Jones",
+      "testimonial": "Wir haben etwas wirklich Besonderes geschaffen.",
+      "stars": "5"
+    }
   }
 }
