@@ -12,7 +12,7 @@ export default function AboutUs (
     ) {
     const { t } = useTranslation()
     return (
-        <section className="AboutUs">
+        <section id="uber-uns" className="AboutUs">
             <div>
                 <div className="container first">
                     <div className="">

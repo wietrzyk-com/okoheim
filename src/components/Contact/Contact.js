@@ -46,7 +46,7 @@ export default function Contact() {
     };
 
     return (
-        <section id="contactSection" className="Contact">
+        <section id="kontakt" className="Contact">
             <div className="container">
                 <iframe
                     title="Google Maps"

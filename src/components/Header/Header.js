@@ -17,12 +17,12 @@ export default function Header () {
                 </a>
                 <h1>{t('common.companyName')}</h1>
                 <ul>
-                    <li><a onClick={() => navigate('/#aboutUsSection')} href="/uber-uns">{t('header.aboutUs')}</a></li>
-                    <li><a onClick={() => navigate('/#offerSection')} href="/angebot">{t('header.offer')}</a></li>
-                    <li><a onClick={() => navigate('/#projectsSection')} href="/projekte">{t('header.projects')}</a></li>
-                    <li><a onClick={() => navigate('/#contactSection')} href="/kontakt">{t('header.contact')}</a></li>
+                    <li><a onClick={() => navigate('/#uber-uns')} href="#uber-uns">{t('header.aboutUs')}</a></li>
+                    <li><a onClick={() => navigate('/#angebot')} href="#angebot">{t('header.offer')}</a></li>
+                    <li><a onClick={() => navigate('/#projekte')} href="#projekte">{t('header.projects')}</a></li>
+                    <li><a onClick={() => navigate('/#kontakt')} href="#kontakt">{t('header.contact')}</a></li>
                 </ul>
-                <a onClick={() => navigate('/#contactSection')} href="/support" className="btn btn-outline-secondary">{t('header.support')}</a>
+                <a onClick={() => navigate('/#kontakt')} href="#kontakt" className="btn btn-outline-secondary">{t('header.support')}</a>
             </div>
         </header>
     );
