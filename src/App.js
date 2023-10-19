@@ -15,6 +15,7 @@ import Footer from './components/Footer/Footer';
 import Contact from "./components/Contact/Contact";
 import HowWeWork from "./components/HowWeWork/HowWeWork";
 import Offer from "./components/Offer/Offer";
+import Projects from "./components/Projects/Projects";
 
 const PageContent = () => {
     const location = useLocation();
@@ -47,6 +48,7 @@ const PageContent = () => {
             <AboutUs />
             <HowWeWork />
             <Offer />
+            <Projects />
             <Contact />
         </>
     )
@@ -61,6 +63,7 @@ function App() {
             <main>
                 <Routes>
                     <Route path="/" element={<PageContent />} />
+                    <Route path="/projects" element={<Projects />} />
                 </Routes>
             </main>
             <Footer />
