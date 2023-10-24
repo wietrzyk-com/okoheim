@@ -27,11 +27,11 @@
     }
 
     .author-container {
-      width: 100px; /* specify the width of the container */
-      height: 100px; /* specify the height of the container, should be the same as the width */
+      width: 75px; /* specify the width of the container */
+      height: 75px; /* specify the height of the container, should be the same as the width */
       border-radius: 50%; /* this makes the container circular */
       overflow: hidden; /* this clips the inner image to match the container shape */
-      border: 5px solid $mainColor; /* this adds a thick blue border around the container */
+      border: 3px solid $mainColor; /* this adds a thick blue border around the container */
       display: flex; /* ensures image is centered within the container */
       align-items: center; /* aligns image vertically */
       justify-content: center; /* aligns image horizontally */
@@ -45,7 +45,7 @@
 
     .testimony {
       display: grid;
-      grid-template-columns: 100px auto;
+      grid-template-columns: 75px auto;
       grid-gap: 30px;
     }
 

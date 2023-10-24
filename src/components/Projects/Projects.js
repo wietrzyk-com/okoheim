@@ -8,27 +8,27 @@ import { useTranslation } from "react-i18next";
 import author1Photo from './author1.png';
 import author2Photo from './author2.png';
 import author3Photo from './author3.png';
-import author4Photo from './author3.png';
-import author5Photo from './author3.png';
-import author6Photo from './author3.png';
+import author4Photo from './author4.png';
+import author5Photo from './author5.png';
+import author6Photo from './author6.png';
 
 import image1_1 from './1.1.png';
 import image1_2 from './1.2.png';
 
-import image2_1 from './1.1.png';
-import image2_2 from './1.2.png';
+import image2_1 from './2.1.png';
+import image2_2 from './2.2.png';
 
-import image3_1 from './1.1.png';
-import image3_2 from './1.2.png';
+import image3_1 from './3.1.png';
+import image3_2 from './3.2.png';
 
-import image4_1 from './1.1.png';
-import image4_2 from './1.2.png';
+import image4_1 from './4.1.png';
+import image4_2 from './4.2.png';
 
-import image5_1 from './1.1.png';
-import image5_2 from './1.2.png';
+import image5_1 from './5.1.png';
+import image5_2 from './5.2.png';
 
-import image6_1 from './1.1.png';
-import image6_2 from './1.2.png';
+import image6_1 from './6.1.png';
+import image6_2 from './6.2.png';
 
 const authorPhoto = [author1Photo, author2Photo, author3Photo, author4Photo, author5Photo, author6Photo];
 const image = [
