@@ -5,12 +5,7 @@ import { Navigation } from 'swiper/modules';
 import "./Projects.scss";
 import { useTranslation } from "react-i18next";
 
-import author1Photo from './author1.png';
-import author2Photo from './author2.png';
-import author3Photo from './author3.png';
-import author4Photo from './author4.png';
-import author5Photo from './author5.png';
-import author6Photo from './author6.png';
+import authorPhoto from './author.png';
 
 import image1_1 from './1.1.png';
 import image1_2 from './1.2.png';
@@ -30,7 +25,6 @@ import image5_2 from './5.2.png';
 import image6_1 from './6.1.png';
 import image6_2 from './6.2.png';
 
-const authorPhoto = [author1Photo, author2Photo, author3Photo, author4Photo, author5Photo, author6Photo];
 const image = [
     [image1_1, image1_2],
     [image2_1, image2_2],
@@ -41,7 +35,7 @@ const image = [
 ];
 
 
-function Project ({ images, testimonial, author, authorPhoto, address, stars }) {
+function Project ({ images, testimonial, author, address, stars }) {
     return (
         <div className="project">
             {images.map((image, index) => (
@@ -55,7 +49,7 @@ function Project ({ images, testimonial, author, authorPhoto, address, stars }) 
                     </div>
                     <div>
                         <h4>{author}</h4>
-                        <p>{testimonial}</p>
+                        <p>&bdquo;{testimonial.split('\n').join('<br />')}&ldquo;</p>
                     </div>
                 </div>
 

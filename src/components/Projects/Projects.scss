@@ -6,10 +6,10 @@
 
   .project {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 3fr;
 
     img {
-      height: 50vh;
+      height: 70vh;
       object-fit: cover;
       width: 100%;
     }

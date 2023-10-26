@@ -41,7 +41,18 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
         img {
+          display: block;
+          margin: 0 auto;
           width: 100%;
+        }
+        img:nth-child(2) {
+          margin-top: 10px;
+        }
+        img:nth-child(3) {
+          margin-top: -35px;
+        }
+        img:last-child {
+          width: 60%;
         }
       }
     }

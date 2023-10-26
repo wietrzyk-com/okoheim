@@ -5,7 +5,7 @@ import mitsubishiLogo from '../Footer/mitsubishi.png';
 
 import vaillantPhoto from './vaillant.jpg';
 import vaillantLogo from '../Footer/vaillant.png';
-import smarthomePhoto from './smarthome.png';
+import smarthomePhoto from './smarthome.jpg';
 import smarthomeLogo from '../Footer/loxone.png';
 
 import './Offer.scss';
