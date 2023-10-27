@@ -1,12 +1,13 @@
 {
   "common": {
     "companyName": "Ökoheim",
+    "companyPhone": "01512 0580348",
     "email": "kontakt@ökoheim.com",
-    "companyAddress": "Grodzka 14/2, 55-220 Brzezinki, POLEN",
+    "companyAddress": "Georgstaße 38, 30159 Hannover",
     "companyAccounts": "PL 12 1234 1234 1234 1234 1234 1234 1234\nSWIFT/BIC: PLXMBK"
   },
   "contact": {
-    "mapLocation": "Zielna 28B, Wrocław",
+    "mapLocation": "Georgstaße 38, 30159 Hannover",
     "title": "Kontakt",
     "email": "E-Mail",
     "emailPlaceholder": "Ihre E-Mail",

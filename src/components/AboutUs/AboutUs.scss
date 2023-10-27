@@ -1,12 +1,17 @@
 @import "../../common";
 
 .AboutUs {
+  border-bottom: 1px $mainColor solid;
   > div:first-child {
     background: linear-gradient(90deg, $altLightBackground 50%, $mainColor 50%);
 
     .container {
       display: grid;
       grid-template-columns: 1fr 1fr;
+
+      p {
+        text-align: justify;
+      }
 
       > div {
         padding: 80px 0;
@@ -71,8 +76,13 @@
       }
 
       > div {
+        p {
+          text-align: justify;
+          margin-bottom: 30px;
+        }
+        font-size: 115%;
         background: $mainColor;
-        padding: 80px 30px 80px 90px;
+        padding: 80px 80px 80px 90px;
       }
     }
   };
