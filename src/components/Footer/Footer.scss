@@ -29,8 +29,12 @@ footer {
       }
     }
     > div:last-child {
-      padding: 30px 0 30px 120px;
+      padding: 30px 0 30px 15vw;
       color: $mainColor;
+
+      a, a:active, a:visited {
+        color: $mainColor;
+      }
 
       h5 {
         padding-top: 30px;

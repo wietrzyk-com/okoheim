@@ -6,6 +6,7 @@ import loxoneImg from './loxone.png';
 import mitsubishiImg from './mitsubishi.png';
 import { Fade } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
+import {parsePhoneNumber} from "libphonenumber-js";
 
 export default function Footer() {
     const { t } = useTranslation()
@@ -42,6 +43,9 @@ export default function Footer() {
                     <h5>{t('common.companyName')}</h5>
                     {t('common.companyAddress').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
                     {t('common.companyAccounts').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+
+                    <p><a href={`callto://${parsePhoneNumber(t('common.companyPhone'), 'DE').number}`}>{t('common.companyPhone')}</a></p>
+                    <p><a href={`mailto://${t('common.email')}`}>{t('common.email')}</a></p>
 
                     <h5>{t('footer.partnersTitle')}</h5>
                     <div>
