@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import howWeWorkImg from "./HowWeWork.png";
+import howWeWorkImg from "./howWeWork.png";
 import "./HowWeWork.scss";
 import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
