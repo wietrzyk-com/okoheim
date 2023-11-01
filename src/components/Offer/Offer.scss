@@ -60,4 +60,18 @@
   .container p {
     text-align: justify;
   }
+
+  .OfferCommon {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 30px;
+  }
+
+  .Vaillant {
+    padding: 80px 80px 800px 80px;
+    color: $background;
+    background-image: url('./Vaillant/bkg1.jpg');
+    background-size: cover;
+    background-position: bottom center;
+  }
 }
