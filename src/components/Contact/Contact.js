@@ -38,7 +38,8 @@ export default function Contact() {
             body: new URLSearchParams({
                 phone,
                 email,
-                message
+                message,
+                'form-name': 'contact'
             }).toString(),
         })
             .then(() => setFormState('success'))
