@@ -1,10 +1,10 @@
 {
   "common": {
     "companyName": "Ökoheim",
-    "companyPhone": "01512 0580348",
+    "companyPhone": "+49 1512 05 80 348",
     "email": "kontakt@ökoheim.com",
     "companyAddress": "Georgstaße 38, 30159 Hannover",
-    "companyAccounts": "PL 12 1234 1234 1234 1234 1234 1234 1234\nSWIFT/BIC: PLXMBK"
+    "companyAccounts": "PL21 1050 1908 1000 0092 0162 3858\nSWIFT/BIC: INGBPLPW"
   },
   "contact": {
     "mapLocation": "Georgstaße 38, 30159 Hannover",
@@ -33,12 +33,12 @@
     "support": "Kundendienst"
   },
   "hero": {
-    "slogan": "Nachhaltige Heizungladen",
+    "slogan": "NACHHALTIGE HEIZUNGSANLAGEN",
     "contactUs": "Kontaktiere Uns"
   },
   "aboutUs": {
     "title": "Über Uns",
-    "text": "ÖKOHEIM ist ein deutsches Unternehmen mit polnischen Wurzeln. Seit 2014 sind wir kontinuierlich auf dem polnischen Sanitärmarkt tätig, zunächst als Planungsbüro für Sanitärinstallationen. \nDas dynamische Wachstum und die Marktnachfrage haben unser Geschäft in Richtung Contracting getrieben, sodass wir seit 2020 in der Installation von Wärmepumpen, Photovoltaikanlagen, Klima- und Lüftungsanlagen sowie Wasser- und Abwasseranlagen für unsere Kunden tätig sind. 2022 haben wir unseren Tätigkeitsbereich über Polen hinaus erweitert. \nSeitdem haben wir viele Modernisierungen bestehender Kesselanlagen mit modernen hydraulischen Systemen auf Basis von Vaillant und Mitsubishi Wärmepumpen erfolgreich abgeschlossen.",
+    "text": "ÖKOHEIM ist ein deutsches Unternehmen mit polnischen Wurzeln. Seit 2014 sind wir kontinuierlich auf dem polnischen Sanitärmarkt tätig, zunächst als Planungsbüro für Sanitärinstallationen. \nDas dynamische Wachstum und die Marktnachfrage haben unser Geschäft in Richtung Contracting getrieben, sodass wir seit 2018 in der Installation von Wärmepumpen, Photovoltaikanlagen, Klima- und Lüftungsanlagen sowie Wasser- und Abwasseranlagen für unsere Kunden tätig sind. 2022 haben wir unseren Tätigkeitsbereich über Polen hinaus erweitert. \nSeitdem haben wir viele Modernisierungen bestehender Kesselanlagen mit modernen hydraulischen Systemen auf Basis von Vaillant und Mitsubishi Wärmepumpen erfolgreich abgeschlossen.",
     "mainImageDescription": "Wärmepumpen",
     "image1Description": "Wärmepumpen",
     "image2Description": "Wärmepumpen",
@@ -67,7 +67,7 @@
     "smarthome": "Smart Homes"
   },
   "projects": {
-    "title": "Unsere Projekte",
+    "title": "Realisierte Projekte",
     "project1": {
       "address": "13187 Berlin, Deutschland",
       "author": "Weber Christian",
