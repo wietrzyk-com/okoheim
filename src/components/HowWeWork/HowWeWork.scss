@@ -1,0 +1,25 @@
+@import '../../common.scss';
+
+.HowWeWork {
+  background: $altBackground;
+  color: $altLightBackground;
+  padding: 80px 0;
+  .container {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      text-align: center;
+      transform: rotate(-90deg);
+      transform-origin: 50% 50%;
+      text-transform: uppercase;
+      background: $mainColor;
+      padding: 1em;
+      margin-left: -2em;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+}

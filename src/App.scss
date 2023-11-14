@@ -8,39 +8,22 @@
 //   "light": $light,
 //   "dark": $dark,
 // );
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
-$primary: #00d97b;
-$danger: #ff4136;
-$mainColor: #00968f;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;600;700&display=swap");
+@import "common";
+
+$primary: $gradientEnd;
+$secondary: $gradientStart;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
-header {
-  background-color: $mainColor;
-
-  img {
-    margin-top: 12px;
-  }
-}
-
-main {
-  background-image: url("./gfx/b1.png");
-  background-size: cover;
-  background-position: 55% 75%;
-  background-blend-mode: multiply;
-  background-color: rgb(116, 116, 116);
-
-  color: white;
-  padding-top: 25%;
-}
-
-.layout {
+#root {
   display: grid;
-  grid-template-rows: 60px auto;
+  grid-template-rows: 55px auto;
   height: 100vh;
 }

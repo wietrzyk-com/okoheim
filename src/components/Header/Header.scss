@@ -1,0 +1,58 @@
+@import "../../common";
+
+header {
+  z-index: 2000;
+  box-shadow: #002d2b50 0 3px 5px;
+  position: fixed;
+  width: 100%;
+  background-color: $mainColor;
+  padding: 10px 0;
+  img {
+    margin-top: 5px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    >:last-child {
+      margin-right: 0;
+    }
+
+    .btn {
+      margin-left: auto;
+    }
+
+    h1 {
+      display: none;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 30px;
+      display: flex;
+      align-items: center;
+
+      li {
+        margin-right: 20px;
+
+        // Target the last item
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          text-decoration: none;
+          color: $gradientEnd;
+          transition: color 0.3s;
+
+          // Hover state
+          &:hover {
+            color: $background;
+          }
+        }
+      }
+    }
+  }
+}

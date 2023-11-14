@@ -1,0 +1,108 @@
+{
+  "common": {
+    "companyName": "Ökoheim",
+    "companyPhone": "+49 1512 05 80 348",
+    "email": "kontakt@ökoheim.com",
+    "companyAddress": "Georgstaße 38, 30159 Hannover",
+    "companyAccounts": "PL21 1050 1908 1000 0092 0162 3858\nSWIFT/BIC: INGBPLPW"
+  },
+  "contact": {
+    "mapLocation": "Georgstaße 38, 30159 Hannover",
+    "title": "Kontakt",
+    "email": "E-Mail",
+    "emailPlaceholder": "Ihre E-Mail",
+    "errorEmailMessage": "Ungültige E-Mail-Adresse",
+    "phone": "Telefon",
+    "phonePlaceholder": "Ihre Telefonnummer",
+    "errorPhoneMessage": "Ungültige Telefonnummer",
+    "message": "Nachricht",
+    "messagePlaceholder": "Ihre Nachricht",
+    "send": "Senden",
+    "success": "Erfolg! Ihre Nachricht wurde gesendet.",
+    "error": "Fehler! Ihre Nachricht konnte nicht gesendet werden."
+  },
+  "howWeWork": {
+    "title": "Wie&nbsp;machen wir&nbsp;uns?"
+  },
+  "header": {
+    "aboutUs": "Über uns",
+    "offer": "Angebot",
+    "contact": "Kontakt",
+    "projects": "Projekte",
+    "subventions": "Zuschusse",
+    "support": "Kundendienst"
+  },
+  "hero": {
+    "slogan": "NACHHALTIGE HEIZUNGSANLAGEN",
+    "contactUs": "Kontaktiere Uns"
+  },
+  "aboutUs": {
+    "title": "Über Uns",
+    "text": "ÖKOHEIM ist ein deutsches Unternehmen mit polnischen Wurzeln. Seit 2014 sind wir kontinuierlich auf dem polnischen Sanitärmarkt tätig, zunächst als Planungsbüro für Sanitärinstallationen. \nDas dynamische Wachstum und die Marktnachfrage haben unser Geschäft in Richtung Contracting getrieben, sodass wir seit 2018 in der Installation von Wärmepumpen, Photovoltaikanlagen, Klima- und Lüftungsanlagen sowie Wasser- und Abwasseranlagen für unsere Kunden tätig sind. 2022 haben wir unseren Tätigkeitsbereich über Polen hinaus erweitert. \nSeitdem haben wir viele Modernisierungen bestehender Kesselanlagen mit modernen hydraulischen Systemen auf Basis von Vaillant und Mitsubishi Wärmepumpen erfolgreich abgeschlossen.",
+    "mainImageDescription": "Wärmepumpen",
+    "image1Description": "Wärmepumpen",
+    "image2Description": "Wärmepumpen",
+    "image3Description": "Wärmepumpen",
+    "timelineDescription": "Im Laufe der Zeit",
+    "timelineTitle": "Im Laufe der Zeit",
+    "timelineSubtitle": "2014-2023",
+    "aboutMeTitle": "Über mich",
+    "aboutMeText": "Ich bin Firmengründer und habe an der Technischen Universität Breslau im Fachbereich Umwelttechnik studiert, wo ich 2012 meinen Master of Engineering erwarb. 2017 erhielt ich die Lizenz zur Planung und Leitung von Bauarbeiten ohne Einschränkungen im Bereich Netze, Anlagen und Wärmegeräte, Lüftungen, Gas, Wasserversorgung sowie Abwasser  und Klimaanlagen. \nIch arbeite seit Jahren mit großen Unternehmen und Installationsgroßhändlern in Polen und Deutschland zusammen. Ebenfalls bin ich Mitglied der Niederschlesischen Ingenieurkammer für Bauwesen und der Deutschen Handwerkskammer in Berlin. \nPrivat verbringe ich gerne die Zeit aktiv mit meinen zwei Kindern und meiner Frau. Wir genießen die Berge und das Wasser beim Skifahren, Segeln und Fahrradfahren. "
+  },
+  "footer": {
+    "person1Name": "Tomasz Boloz",
+    "person1Position": "Firmeninhaber",
+    "person1Education": "Dipl.-Ing. Sanitar-Heizung-Luftung",
+    "person1Phone": "+49 1512 05 80 348",
+    "person2Name": "Patrycja Ledwon-Boloz",
+    "person2Position": "Betreibsleiter",
+    "person2Education": "Dipl.-Ing. Konstruktion",
+    "person2Phone": "+48 696 016 177",
+    "partnersTitle":  "Partner"
+  },
+  "offer": {
+    "title": "Angebot",
+    "mitsubishi": "Wärmepumpe",
+    "vaillant": "Wärmepumpe",
+    "smarthome": "Smart Homes"
+  },
+  "projects": {
+    "title": "Realisierte Projekte",
+    "project1": {
+      "address": "13187 Berlin, Deutschland",
+      "author": "Weber Christian",
+      "testimonial": "Sehr empfehlenswert! Das Unternehmen ist sehr zu empfehlen. Alles wird so gemacht, wie es sein sollte - Pumpe ohne Vorbehalte, alles funktioniert, ist angeschlossen, wie es sein sollte. Kontakt ist die ganze Zeit mit der Firma. Es gibt nichts zu beanstanden, alles super! Sehr zu empfehlen.",
+      "stars": "5"
+    },
+    "project2": {
+      "address": "30938 Hannover, Deutschland",
+      "author": "Gustav Shafer",
+      "testimonial": "Ein zu empfehlendes Unternehmen. Kein Problem bei der Kontaktaufnahme mit dem Kundendienst. Die Installationsarbeiten wurden professionell, sauber und schnell ausgefuhrt. Ich bin sehr zufrieden.",
+      "stars": "5"
+    },
+    "project3": {
+      "address": "48167 Munster, Deutschland",
+      "author": "Marcus Backer",
+      "testimonial": "Ein empfehlenswertes Unternehmen :) In jeder Phase, von der Beratung, wo man anfangen soll, was man auswählen soll, bis zur Installation und den abschließenden Arbeiten. Man konnte auf gute Zusammenarbeit und Beratung zählen. Ich empfehle besonders Herrn Tomasz Boloz - sehr höflich und hilfsbereit. Professioneller Umgang mit dem Kunden.",
+      "stars": "5"
+    },
+    "project4": {
+      "address": "48231 Warendorf, Deutschland",
+      "author": "Adolf Disterheft",
+      "testimonial": "Preislich eines der attraktivsten Angebote auf dem Markt. Das Unternehmen stellt sich auf den Kunden ein und lässt ihn während der nächsten Bauphasen nicht unbeantwortet. Dank der technischen Unterstützung bei den Sanitär- und Elektroarbeiten verlief die Installation schließlich sehr reibungslos.",
+      "stars": "5"
+    },
+    "project5": {
+      "address": "31134 Hildsheim, Deutschland",
+      "author": "Eric Miller",
+      "testimonial": "Wir sind sehr zufrieden mit der Professionalität und dem Engagement. Von der Planungsberatung über die Installation und die kompetente, geduldige Einweisung in die Wärmepumpe bis hin zur Erlangung der BAFA-Förderung. Herzlichen Glückwunsch an den Geschäftsführer für so ein Team.",
+      "stars": "5"
+    },
+    "project6": {
+      "address": "31134 Salzgitter, Deutschland",
+      "author": "Gerald Fuchs",
+      "testimonial": "Ich bin mit der Zusammenarbeit mit OKOHEIM zufrieden. Sie waren da, als sie es versprochen haben, sie haben ihre Arbeit effizient und gut gemacht, sie haben sofort auf Probleme reagiert. Außerdem haben sie uns geholfen, alle mit der BAFA zu regeln. Sehr zu empfehlen!",
+      "stars": "5"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import '../../common.scss';
+
+footer {
+  color: $background;
+  a, a:active, a:visited {
+    color: $altLightBackground;
+  }
+
+  span.name {
+    font-weight: 700;
+  }
+
+  span.position {
+
+  }
+
+  span.education {
+    font-weight: 100;
+  }
+  background: linear-gradient(120deg, $mainColor 50%,  $altLightBackground 50%);
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0;
+    > div:first-child {
+      img {
+        width: 50%;
+      }
+    }
+    > div:last-child {
+      padding: 30px 0 30px 15vw;
+      color: $mainColor;
+
+      a, a:active, a:visited {
+        color: $mainColor;
+      }
+
+      h5 {
+        padding-top: 30px;
+      }
+
+      > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        img {
+          display: block;
+          margin: 0 auto;
+          width: 100%;
+        }
+        img:nth-child(2) {
+          margin-top: 10px;
+        }
+        img:nth-child(3) {
+          margin-top: -35px;
+        }
+        img:last-child {
+          width: 60%;
+        }
+      }
+    }
+  }
+
+
+}
