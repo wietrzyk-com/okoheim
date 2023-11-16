@@ -1,5 +1,11 @@
 @import "../../common";
 
+//
+//  header {
+//    display: none;
+//  }
+//}
+
 header {
   z-index: 2000;
   box-shadow: #002d2b50 0 3px 5px;
@@ -53,6 +59,10 @@ header {
           }
         }
       }
+    }
+
+    @media (max-width: 575.98px) {
+      ul { display: none }
     }
   }
 }

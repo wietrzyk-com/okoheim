@@ -1,6 +1,10 @@
 @import "../../common";
 
 #projekte {
+
+  @media (max-width: 575.98px) {
+    display: none;
+  }
   background: $altLightBackground;
   padding-block: 80px;
 

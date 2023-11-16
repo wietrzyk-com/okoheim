@@ -36,7 +36,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div>
+      <div id="timeline">
         <div className="container">
           <h6>{t("aboutUs.timelineSubtitle")}</h6>
           <h2>{t("aboutUs.timelineTitle")}</h2>
