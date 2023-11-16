@@ -3,6 +3,10 @@
     padding: 80px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @media (max-width: 575.98px) {
+      grid-template-columns: none;
+      grid-template-rows: auto 50vh;
+    }
     > div {
       padding: 0 30px;
     }

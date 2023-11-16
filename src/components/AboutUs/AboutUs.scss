@@ -8,6 +8,16 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
 
+
+      @media (max-width: 575.98px) {
+        display: block;
+        background: $altLightBackground;
+
+        #timeline {
+          display: none;
+        }
+      }
+
       p {
         text-align: justify;
       }
@@ -24,6 +34,11 @@
 
       > div:nth-child(2) {
         padding-left: 80px;
+        @media (max-width: 575.98px) {
+          img {
+            display: none;
+          }
+        }
         img {
           width: 100%;
           margin-bottom: -230px;
