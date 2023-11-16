@@ -19,18 +19,35 @@ footer {
   }
   background: linear-gradient(120deg, $mainColor 50%,  $altLightBackground 50%);
 
+  @media (max-width: 575.98px) {
+    background: $mainColor;
+  }
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 575.98px) {
+      grid-template-columns: none;
+    }
+
     padding: 30px 0;
     > div:first-child {
       img {
         width: 50%;
+        @media (max-width: 575.98px) {
+          display: none;
+        }
       }
     }
     > div:last-child {
       padding: 30px 0 30px 15vw;
       color: $mainColor;
+
+      @media (max-width: 575.98px) {
+        color: $background;
+        padding: inherit;
+      }
 
       a, a:active, a:visited {
         color: $mainColor;
@@ -62,5 +79,11 @@ footer {
     }
   }
 
-
+  @media (max-width: 575.98px) {
+    .partners > div {
+      color: $mainColor;
+      background: $altLightBackground;
+      padding: 30px;
+    }
+  }
 }

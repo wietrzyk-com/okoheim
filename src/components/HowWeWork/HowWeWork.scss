@@ -1,6 +1,9 @@
 @import '../../common.scss';
 
 .HowWeWork {
+  @media (max-width: 767.98px) {
+    display: none;
+  }
   background: $altBackground;
   color: $altLightBackground;
   padding: 80px 0;

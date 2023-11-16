@@ -8,10 +8,9 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
 
-
       @media (max-width: 575.98px) {
-        display: block;
-        background: $altLightBackground;
+        grid-template-columns: none;
+        background: $background;
 
         #timeline {
           display: none;
@@ -24,8 +23,15 @@
 
       > div {
         padding: 80px 0;
+
+        @media (max-width: 575.98px) {
+          padding: 30px 0;
+        }
         p {
           margin-right: 30px;
+          @media (max-width: 575.98px) {
+            margin-right: 0;
+          }
         }
         p:last-child {
           margin-bottom: 30px;
@@ -33,12 +39,11 @@
       }
 
       > div:nth-child(2) {
-        padding-left: 80px;
         @media (max-width: 575.98px) {
-          img {
-            display: none;
-          }
+          display: none;
         }
+        padding-left: 80px;
+
         img {
           width: 100%;
           margin-bottom: -230px;
@@ -50,6 +55,12 @@
   > div:nth-child(2) {
     background: $altBackground;
     height: 150px;
+
+    @media (max-width: 575.98px) {
+      height: auto;
+      background: $background;
+    }
+
     img {
       width: calc(65% / 3 - 30px);
       margin-top: -85px;
@@ -57,9 +68,29 @@
       box-shadow: #002d2b50 0 0 10px;
       border-radius: 2px;
     }
+
+    @media (max-width: 575.98px) {
+      img {
+        width: 100%;
+        margin-top: 15px;
+        box-shadow: #002d2b50 0 0 10px;
+        border-radius: 2px;
+      }
+
+      img:nth-child(2) {
+        display: none;
+      }
+
+      img:last-child {
+        margin-bottom: 15px;
+      }
+    }
   }
 
   > div:nth-child(3) {
+    @media (max-width: 575.98px) {
+      display: none;
+    }
     background: $altBackground;
     color: $background;
     .container {
@@ -81,13 +112,21 @@
     color: $background;
 
     .container {
+
       display: grid;
       grid-template-columns: 1fr 3fr;
 
       > img {
         z-index: 1000;
         width: calc(100% + 60px);
+
         margin: 30px 0 30px 0;
+
+        @media (max-width: 575.98px) {
+          margin: 0px 0 15px 0;
+          width: 100%;
+          padding: 0;
+        }
       }
 
       > div {
@@ -98,6 +137,23 @@
         font-size: 115%;
         background: $mainColor;
         padding: 80px 80px 80px 90px;
+
+        @media (max-width: 575.98px) {
+          padding: 0;
+        }
+      }
+
+      @media (max-width: 575.98px) {
+        grid-template-columns: none;
+        > img {
+          grid-row: 2 / 2;
+        }
+
+        > div {
+          background: none;
+          padding-top: 15px;
+          grid-row: 1 / 2;
+        }
       }
     }
   }
