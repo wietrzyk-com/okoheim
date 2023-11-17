@@ -24,7 +24,7 @@ export default function Footer() {
                         <br />
                         <span className="position">{t('footer.person1Position')}</span>
                         <br />
-                        <a href={`tel${t('footer.person1Phone')}`}>{t('footer.person1Phone')}</a>
+                        <a href={`tel:${t('footer.person1Phone')}`}>{t('footer.person1Phone')}</a>
                     </p>
                     <p>
                         <span className="name">{t('footer.person2Name')}</span>
