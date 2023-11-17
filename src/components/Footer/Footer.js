@@ -24,7 +24,7 @@ export default function Footer() {
                         <br />
                         <span className="position">{t('footer.person1Position')}</span>
                         <br />
-                        <a href={`callto://${t('footer.person1Phone')}`}>{t('footer.person1Phone')}</a>
+                        <a href={`tel${t('footer.person1Phone')}`}>{t('footer.person1Phone')}</a>
                     </p>
                     <p>
                         <span className="name">{t('footer.person2Name')}</span>
@@ -33,7 +33,7 @@ export default function Footer() {
                         <br />
                         <span className="position">{t('footer.person2Position')}</span>
                         <br />
-                        <a href={`callto://${t('footer.person2Phone')}`}>{t('footer.person2Phone')}</a>
+                        <a href={`tel:${t('footer.person2Phone')}`}>{t('footer.person2Phone')}</a>
                     </p>
                     <p>
                         <a href={`mailto:${t('common.email')}`} className="email">{t('common.email')}</a>
@@ -44,7 +44,7 @@ export default function Footer() {
                     {t('common.companyAddress').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
                     {t('common.companyAccounts').split('\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
 
-                    <p><a href={`callto://${parsePhoneNumber(t('common.companyPhone'), 'DE').number}`}>{t('common.companyPhone')}</a></p>
+                    <p><a href={`tel:${parsePhoneNumber(t('common.companyPhone'), 'DE').number}`}>{t('common.companyPhone')}</a></p>
                     <p><a href={`mailto://${t('common.email')}`}>{t('common.email')}</a></p>
 
                     <h5>{t('footer.partnersTitle')}</h5>
