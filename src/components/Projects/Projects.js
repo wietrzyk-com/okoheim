@@ -5,25 +5,25 @@ import { Navigation } from 'swiper/modules';
 import "./Projects.scss";
 import { useTranslation } from "react-i18next";
 
-import authorPhoto from './author.png';
+import authorPhoto from './author.webp';
 
-import image1_1 from './1.1.png';
-import image1_2 from './1.2.png';
+import image1_1 from './1.1.webp';
+import image1_2 from './1.2.webp';
 
-import image2_1 from './2.1.png';
-import image2_2 from './2.2.png';
+import image2_1 from './2.1.webp';
+import image2_2 from './2.2.webp';
 
-import image3_1 from './3.1.png';
-import image3_2 from './3.2.png';
+import image3_1 from './3.1.webp';
+import image3_2 from './3.2.webp';
 
-import image4_1 from './4.1.png';
-import image4_2 from './4.2.png';
+import image4_1 from './4.1.webp';
+import image4_2 from './4.2.webp';
 
-import image5_1 from './5.1.png';
-import image5_2 from './5.2.png';
+import image5_1 from './5.1.webp';
+import image5_2 from './5.2.webp';
 
-import image6_1 from './6.1.png';
-import image6_2 from './6.2.png';
+import image6_1 from './6.1.webp';
+import image6_2 from './6.2.webp';
 
 const image = [
     [image1_1, image1_2],

@@ -4,12 +4,12 @@ export default function OfferMitsubishi() {
     return (
         <section id="offerItem">
             <div className="container">
-                <OfferCommon logo={require("../../Footer/mitsubishi.png")}/>
+                <OfferCommon logo={require("../../Footer/mitsubishi.webp")}/>
                 <h3>
                     Mitsubishi Zubadan Inverter
                 </h3>
                 <h4>ideal in der Modernisierung</h4>
-                <img style={{float: "right"}} className="img-fluid" src={require('./zubadan.png')} alt="Mitsubishi Zubadan Inverter" />
+                <img style={{float: "right"}} className="img-fluid" src={require('./zubadan.webp')} alt="Mitsubishi Zubadan Inverter" />
                 <ul>
                     <li>Leistungsspektrum: 4 Modelle, 8,0–23,0 kW modulierend </li>
                     <li>Einsatzbereich Heizbetrieb: –28 °C bis 35 °C</li>

@@ -1,12 +1,12 @@
 import { Fade } from "react-awesome-reveal";
 
-import mitsubishiPhoto from './mitsubishi.jpg'
-import mitsubishiLogo from '../Footer/mitsubishi.png';
+import mitsubishiPhoto from './mitsubishi.webp'
+import mitsubishiLogo from '../Footer/mitsubishi.webp';
 
-import vaillantPhoto from './vaillant.jpg';
-import vaillantLogo from '../Footer/vaillant.png';
-import smarthomePhoto from './smarthome.jpg';
-import smarthomeLogo from '../Footer/loxone.png';
+import vaillantPhoto from './vaillant.webp';
+import vaillantLogo from '../Footer/vaillant.webp';
+import smarthomePhoto from './smarthome.webp';
+import smarthomeLogo from '../Footer/loxone.webp';
 
 import './Offer.scss';
 import { useTranslation } from 'react-i18next';
