@@ -4,7 +4,7 @@ export default function OfferVaillant() {
     return (
         <section id="offerItem">
             <div className="container">
-                <OfferCommon logo={require("../../Footer/vaillant.png")}/>
+                <OfferCommon logo={require("../../Footer/vaillant.webp")}/>
                 <div className="Vaillant">
                     <h3>
                         Vaillant aroTHERM split und aro THERMPLUS Luft/Wasser-Wärmepumpe

@@ -1,7 +1,7 @@
 import "./Subventions.scss";
 
-import stamp1 from './stamp1.jpg';
-import stamp2 from './stamp2.jpg';
+import stamp1 from './stamp1.webp';
+import stamp2 from './stamp2.webp';
 import {useTranslation} from "react-i18next";
 
 export default function Subventions() {

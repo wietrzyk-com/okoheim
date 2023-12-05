@@ -1,9 +1,9 @@
 import "./Footer.scss";
-import logo from './logo.png';
-import vaillantImg from './vaillant.png';
-import teceImg from './tece.png';
-import loxoneImg from './loxone.png';
-import mitsubishiImg from './mitsubishi.png';
+import logo from './logo.webp';
+import vaillantImg from './vaillant.webp';
+import teceImg from './tece.webp';
+import loxoneImg from './loxone.webp';
+import mitsubishiImg from './mitsubishi.webp';
 import { Fade } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
 import {parsePhoneNumber} from "libphonenumber-js";

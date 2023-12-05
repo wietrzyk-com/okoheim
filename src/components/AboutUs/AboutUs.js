@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import "./AboutUs.scss";
-import mainImage from "./mainImage.png";
-import image1 from "./image1.jpg";
-import image2 from "./image2.png";
-import image3 from "./image3.png";
-import timeline from "./timeline.png";
-import aboutMeImage from "./aboutMeImage.png";
+import mainImage from "./mainImage.webp";
+import image1 from "./image1.webp";
+import image2 from "./image2.webp";
+import image3 from "./image3.webp";
+import timeline from "./timeline.webp";
+import aboutMeImage from "./aboutMeImage.webp";
 import { Slide } from "react-awesome-reveal";
 
 export default function AboutUs() {
