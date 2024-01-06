@@ -44,6 +44,9 @@ export default function Footer() {
               {t("common.email")}
             </a>
           </p>
+          <p>
+            <a href="/datenschutzrichtlinie">Datenschutzrichtlinie</a>
+          </p>
         </div>
         <div className="partners">
           <h5>{t("common.companyName")}</h5>
