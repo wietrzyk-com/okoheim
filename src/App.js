@@ -15,6 +15,7 @@ import OfferMitsubishi from "./components/Offer/Mistubishi/OfferMitsubishi";
 import OfferVaillant from "./components/Offer/Vaillant/OfferVaillant";
 import OfferSmartHome from "./components/Offer/SmartHome/OfferSmartHome";
 import Subventions from "./components/Subventions/Subventions";
+import Privacypolicy from "./components/Privacypolicy/Privacypolicy";
 
 const PageContent = () => {
   return (
@@ -78,6 +79,17 @@ function App() {
               element={
                 <>
                   <Subventions />
+                  <HowWeWork />
+                  <Projects />
+                  <Contact />
+                </>
+              }
+            />
+            <Route
+              path="/datenschutzrichtlinie"
+              element={
+                <>
+                  <Privacypolicy />
                   <HowWeWork />
                   <Projects />
                   <Contact />
