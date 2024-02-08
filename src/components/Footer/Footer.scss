@@ -1,8 +1,10 @@
-@import '../../common.scss';
+@import "../../common.scss";
 
 footer {
   color: $background;
-  a, a:active, a:visited {
+  a,
+  a:active,
+  a:visited {
     color: $altLightBackground;
   }
 
@@ -10,14 +12,10 @@ footer {
     font-weight: 700;
   }
 
-  span.position {
-
-  }
-
   span.education {
     font-weight: 100;
   }
-  background: linear-gradient(120deg, $mainColor 50%,  $altLightBackground 50%);
+  background: linear-gradient(120deg, $mainColor 50%, $altLightBackground 50%);
 
   @media (max-width: 575.98px) {
     background: $mainColor;
@@ -33,6 +31,9 @@ footer {
 
     padding: 30px 0;
     > div:first-child {
+      @media (max-width: 575.98px) {
+        padding: 20px;
+      }
       img {
         width: 50%;
         @media (max-width: 575.98px) {
@@ -46,11 +47,16 @@ footer {
 
       @media (max-width: 575.98px) {
         color: $background;
-        padding: inherit;
+        padding: 20px;
       }
 
-      a, a:active, a:visited {
+      a,
+      a:active,
+      a:visited {
         color: $mainColor;
+        @media (max-width: 575.98px) {
+          color: $altLightBackground;
+        }
       }
 
       h5 {
@@ -61,6 +67,10 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
+        @media (max-width: 575.98px) {
+          margin: 0 -20px -30px -20px;
+        }
+
         img {
           display: block;
           margin: 0 auto;
