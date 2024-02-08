@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="container height">
                 <div />
                 <div>
-                    <p className="display-3 w-50">{t("hero.slogan")}</p>
+                    <p id="heroSlogan" className="display-3 w-50">{t("hero.slogan")}</p>
                     <p className="last">
                         <a onClick={() => navigate("#kontakt")} className="btn btn-outline-primary btn-lg" href="#kontakt">{t("hero.contactUs")}</a>
                     </p>

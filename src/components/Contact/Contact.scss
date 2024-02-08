@@ -8,6 +8,7 @@
       grid-template-columns: none;
       grid-template-rows: auto 50vh;
       grid-gap: 30px;
+      padding: 20px 0;
 
       > div:last-child {
         grid-row: 1 / 2;
@@ -20,8 +21,6 @@
     > div {
       padding: 0 30px;
     }
-
-
 
     iframe {
       width: 100%;
