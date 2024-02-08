@@ -24,6 +24,12 @@
   background-color: $altLightBackground;
   color: white;
   padding: 30px 0;
+
+  #heroSlogan {
+    @media (max-width: 575.98px) {
+      font-size: 8vw;
+    }
+  }
 }
 
 @media (min-width: 768px) {
