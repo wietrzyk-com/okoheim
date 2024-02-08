@@ -1,9 +1,9 @@
-@import '../../common.scss';
+@import "../../common.scss";
 
 #angebot {
   padding-block: 80px;
   color: $background;
-  background: linear-gradient(90deg, $mainColor 50%,  $altBackground 50%);
+  background: linear-gradient(90deg, $mainColor 50%, $altBackground 50%);
   .container {
     > div {
       display: flex;
@@ -15,10 +15,12 @@
       }
 
       a:hover {
-        background-color:  #ffffff90;
+        background-color: #ffffff90;
       }
 
-      a, a:visited, a:active {
+      a,
+      a:visited,
+      a:active {
         transition: background-color 0.5s ease;
         cursor: pointer;
         display: block;
@@ -75,12 +77,18 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 30px;
+    @media (max-width: 575.98px) {
+      grid-template-columns: 1fr;
+      > div:last-child {
+        order: -1;
+      }
+    }
   }
 
   .Vaillant {
     padding: 80px 80px 800px 80px;
     color: $background;
-    background-image: url('./Vaillant/bkg1.jpg');
+    background-image: url("./Vaillant/bkg1.jpg");
     background-size: cover;
     background-position: bottom center;
   }
