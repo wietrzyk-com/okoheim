@@ -1,8 +1,50 @@
-#subventions {
+@import "../../common";
+
+.subventions {
   padding-block: 80px;
+  @media (max-width: 575.98px) {
+    padding-block: 20px;
+  }
+}
+
+.subventions.grid {
   .container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 30px;
+
+    @media (max-width: 575.98px) {
+      grid-template-columns: 1fr;
+
+      div:last-child {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+#subventionImage {
+  padding-top: 0;
+
+  background: $altBackground;
+  color: $background;
+  .container {
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+
+    h2,
+    h6 {
+      text-align: left;
+    }
+  }
+  img {
+    width: 80%;
+  }
+
+  @media (max-width: 575.98px) {
+    img {
+      width: calc(100% - 10px);
+    }
   }
 }
