@@ -21,7 +21,7 @@ header {
     display: flex;
     flex-direction: row;
 
-    >:last-child {
+    > :last-child {
       margin-right: 0;
     }
 
@@ -62,7 +62,9 @@ header {
     }
 
     @media (max-width: 575.98px) {
-      ul { display: none }
+      ul {
+        display: none;
+      }
     }
   }
 }
