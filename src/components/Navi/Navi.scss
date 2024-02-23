@@ -1,0 +1,43 @@
+@import "../../common.scss";
+
+#Navi {
+  background: $altBackground;
+  z-index: 2000;
+  box-shadow: #002d2b50 0 3px 5px;
+
+  @media (max-width: 575.98px) {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 20px 10px;
+      margin: 0;
+      align-items: center;
+      
+      a,&:visited {
+        text-decoration: none;
+        color: $background;
+        transition: color 0.3s;
+  
+        // Hover state
+        &:hover, &:active {
+          color: $gradientEnd;
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 575.98px) {
+    ul {
+      display: none;
+    }
+  }
+}
+
+#Navi.sticky {
+  position: fixed;
+  top: 1px;
+  left: 0;
+  width: 100%;
+}

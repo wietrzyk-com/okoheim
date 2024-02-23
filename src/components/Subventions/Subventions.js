@@ -5,6 +5,11 @@ import stamp2 from "./stamp2.webp";
 import { useTranslation } from "react-i18next";
 import subventionImage from "./subventions.png";
 
+import subventionImage1 from "./1.webp";
+import subventionImage2 from "./1.webp";
+import subventionImage3 from "./2.webp";
+import subventionImage4 from "./3.webp";
+
 export default function Subventions() {
   const { t } = useTranslation();
   return (
@@ -60,7 +65,14 @@ export default function Subventions() {
       </section>
       <div id="subventionImage">
         <div className="container">
-          <img src={subventionImage} alt={t("aboutUs.timelineDescription")} />
+          <img className="img-fluid" src={subventionImage} alt={t("aboutUs.timelineDescription")} />
+          <div className="images">
+            <img src={subventionImage1} alt={t("aboutUs.timelineDescription")} />
+            <img src={subventionImage2} alt={t("aboutUs.timelineDescription")} />
+            <img src={subventionImage3} alt={t("aboutUs.timelineDescription")} />
+            <img src={subventionImage4} alt={t("aboutUs.timelineDescription")} />
+          </div>
+         
         </div>
       </div>
       <section className="subventions">
