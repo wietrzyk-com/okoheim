@@ -37,14 +37,30 @@
     h6 {
       text-align: left;
     }
+
+
+
+    div.images {
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 767.98px) {
+        display: none;
+      }
+    }
   }
-  img {
+  > img {
     width: 80%;
   }
 
   @media (max-width: 575.98px) {
     img {
       width: calc(100% - 10px);
+    }
+  }
+
+  @media (max-width: 767px) {
+    img.img-fluid {
+      display: none;
     }
   }
 }

@@ -54,10 +54,8 @@
     "person1Position": "Firmeninhaber",
     "person1Education": "Dipl.-Ing. Sanitär-Heizung-Luftüng",
     "person1Phone": "+49 151 20580348",
-    "person2Name": "Sie haben weitere Fragen oder wünschen eine Beratung? Dann rufen Sie uns an oder schreiben Sie uns eine WhatsApp. Wir freuen uns auf das Gespräch mit Ihnen.",
-    "person2Position": "",
-    "person2Education": "",
-    "person2Phone": "+49 173 9307673",
+    "contactInformation": "Sie haben weitere Fragen oder wünschen eine Beratung? Dann rufen Sie uns an oder schreiben Sie uns eine WhatsApp. Wir freuen uns auf das Gespräch mit Ihnen.",
+    "contactPhone": "+49 173 9307673",
     "partnersTitle":  "Partner"
   },
   "offer": {

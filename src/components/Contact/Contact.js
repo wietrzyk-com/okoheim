@@ -2,8 +2,14 @@ import { useTranslation } from 'react-i18next';
 import { useState } from "react";
 import validator from 'validator';
 import { isValidNumber, parsePhoneNumber } from 'libphonenumber-js';
+import {
+    StaticGoogleMap,
+    Marker
+} from 'react-static-google-map';
 
 import "./Contact.scss";
+
+const MAPS_API_KEY = 'AIzaSyDnKUtBdy6dVQuvd5JTcZYai0njjRcZiA8';
 
 export default function Contact() {
     const { t } = useTranslation();
@@ -52,7 +58,7 @@ export default function Contact() {
                 <iframe
                     title="Google Maps"
                     style={{ border: 0 }}
-                    src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyDnKUtBdy6dVQuvd5JTcZYai0njjRcZiA8&q=${encodeURIComponent(t('contact.mapLocation'))}`}
+                    src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API_KEY}&q=${encodeURIComponent(t('contact.mapLocation'))}`}
                     allowFullScreen>
                 </iframe>
                 <div>
@@ -125,13 +131,17 @@ export default function Contact() {
                          {t('contact.success')}
                      </p>
                     }
-
                     { formState === 'error' &&
                     <p>
                         {t('contact.error')}
                     </p> }
                 </div>
             </div>
+            <a href="https://www.google.com/maps/place/%C3%96koheim,+Georgstra%C3%9Fe+38,+30159+Hannover,+Niemcy/@52.3727269,9.7389473,15z/data=!4m6!3m5!1s0x4906a7775b1de2e7:0xa9a3feb3867af2c6!8m2!3d52.3727269!4d9.7389473!16s%2Fg%2F11l327z6zp">
+                <StaticGoogleMap size="430x430" className="img-fluid static-map" apiKey={MAPS_API_KEY}>
+                        <Marker location="52.372989, 9.738915" color="blue" label={t('common.companyName')} />
+                    </StaticGoogleMap>
+                </a>
         </section>
     )
 }

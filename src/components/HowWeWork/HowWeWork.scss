@@ -23,6 +23,22 @@
     img {
       width: 100%;
     }
+
+   
+  }
+}
+
+.HowWeWorkMobile {
+  @media (min-width: 767.98px) {
+    display: none;
   }
 
+  background: $altBackground;
+  color: $altLightBackground;
+  padding: 30px 10px;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+  }
 }

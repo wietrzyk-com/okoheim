@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import HowWeWork from "./components/HowWeWork/HowWeWork";
 import Offer from "./components/Offer/Offer";
+import Navi from "./components/Navi/Navi";
 import Projects from "./components/Projects/Projects";
 import OfferMitsubishi from "./components/Offer/Mistubishi/OfferMitsubishi";
 import OfferVaillant from "./components/Offer/Vaillant/OfferVaillant";
@@ -22,6 +23,7 @@ const PageContent = () => {
     <>
       <div id="top" />
       <Hero />
+      <Navi />
       <AboutUs />
       <HowWeWork />
       <Offer />
@@ -45,6 +47,7 @@ function App() {
               path="/angebot/warmepumpe/mitsubishi"
               element={
                 <>
+                  <Navi />
                   <OfferMitsubishi />
                   <HowWeWork />
                   <Projects />
@@ -56,6 +59,7 @@ function App() {
               path="/angebot/warmepumpe/vaillant"
               element={
                 <>
+                  <Navi />
                   <OfferVaillant />
                   <HowWeWork />
                   <Projects />
@@ -67,6 +71,7 @@ function App() {
               path="/angebot/warmepumpe/smart-home"
               element={
                 <>
+                  <Navi />
                   <OfferSmartHome />
                   <HowWeWork />
                   <Projects />
@@ -78,6 +83,7 @@ function App() {
               path="/zuschusse"
               element={
                 <>
+                  <Navi />
                   <Subventions />
                   <HowWeWork />
                   <Projects />
@@ -89,6 +95,7 @@ function App() {
               path="/datenschutzrichtlinie"
               element={
                 <>
+                  <Navi />
                   <Privacypolicy />
                   <HowWeWork />
                   <Projects />
