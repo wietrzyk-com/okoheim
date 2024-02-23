@@ -1,6 +1,7 @@
 @import "../../common.scss";
 
 #Navi {
+  transform: translate3d(0,0,0);
   background: $altBackground;
   z-index: 2000;
   box-shadow: #002d2b50 0 3px 5px;
