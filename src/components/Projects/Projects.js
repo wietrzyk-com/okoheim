@@ -61,7 +61,8 @@ function Project ({ images, testimonial, author, address, stars }) {
 export default function Projects() {
     const { t } = useTranslation();
     return (
-        <section id="projekte">
+        <>
+            <section id="projekte">
             <div className="container">
             <h2>{t('projects.title')}</h2>
             <Swiper
@@ -80,6 +81,18 @@ export default function Projects() {
                 ))}
             </Swiper>
             </div>
-        </section>
+            </section>
+            <section id="projekteMobile">
+                <div className="container">
+                <h2>{t('projects.title')}</h2>
+                    {[1,2,3,4,5,6].map(i => (
+                        <Project address={t(`projects.project${i}.address`)}
+                        author={t(`projects.project${i}.author`)}
+                        authorPhoto={authorPhoto[i-1]} testimonial={t(`projects.project${i}.testimonial`)}
+                        images={image[i-1]} stars={t(`projects.project${i}.stars`)} />
+                    ))}
+                </div>
+            </section>
+        </>
     )
 }
