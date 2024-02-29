@@ -6,9 +6,9 @@ import { useTranslation } from "react-i18next";
 import subventionImage from "./subventions.png";
 
 import subventionImage1 from "./1.webp";
-import subventionImage2 from "./1.webp";
-import subventionImage3 from "./2.webp";
-import subventionImage4 from "./3.webp";
+import subventionImage2 from "./2.webp";
+import subventionImage3 from "./3.webp";
+import subventionImage4 from "./4.webp";
 
 export default function Subventions() {
   const { t } = useTranslation();
