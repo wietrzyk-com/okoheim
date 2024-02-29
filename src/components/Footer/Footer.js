@@ -4,6 +4,7 @@ import vaillantImg from "./vaillant.webp";
 import teceImg from "./tece.webp";
 import loxoneImg from "./loxone.webp";
 import mitsubishiImg from "./mitsubishi.webp";
+import facebookLogo from "./facebookLogo.webp";
 import { Fade } from "react-awesome-reveal";
 import { useTranslation } from "react-i18next";
 import { parsePhoneNumber } from "libphonenumber-js";
@@ -15,7 +16,7 @@ export default function Footer() {
       <div className="container">
         <div>
           <Fade triggerOnce delay={500}>
-            <img alt={t("common.companyName")} src={logo} />
+            <img id="footerLogo" alt={t("common.companyName")} src={logo} />
           </Fade>
           <p>
             <span className="name">{t("footer.person1Name")}</span>
@@ -30,6 +31,7 @@ export default function Footer() {
           </p>
           <p>
             <span className="name">{t("footer.contactInformation")}</span>
+            <br />
             <a href={`tel:${t("footer.contactPhone")}`}>
               {t("footer.contactPhone")}
             </a>
@@ -41,6 +43,11 @@ export default function Footer() {
           </p>
           <p>
             <a href="/datenschutzrichtlinie">Datenschutzrichtlinie</a>
+          </p>
+          <p>
+            <a href="https://www.facebook.com/profile.php?id=61551334431039">
+              <img src={facebookLogo} width={24} height={24} alt="Facebook" />
+            </a>
           </p>
         </div>
         <div className="partners">

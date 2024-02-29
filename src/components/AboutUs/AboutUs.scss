@@ -122,6 +122,22 @@
   }
 
   > div:nth-child(4) {
+    #showMore {
+      display: none;
+    }
+
+    @media (max-width: 575.98px) {
+      #showMore {
+        display: block;
+      }
+      .restOfTheParagraphs {
+        display: none;
+      }
+      .restOfTheParagraphs.visible {
+        display: block;
+      }
+    }
+
     background: $altBackground;
     color: $background;
 
