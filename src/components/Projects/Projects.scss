@@ -2,9 +2,7 @@
 
 #projekte {
 
-  @media (max-width: 575.98px) {
-    display: none;
-  }
+  
   background: $altLightBackground;
   padding-block: 80px;
 
@@ -51,6 +49,46 @@
       display: grid;
       grid-template-columns: 75px auto;
       grid-gap: 30px;
+    }
+
+  }
+
+  @media (max-width: 575.98px) {
+    display: none;
+  }
+}
+
+#projekteMobile {
+  background: $altLightBackground;
+  padding-block: 30px;
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+      height: 30vh;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    > img:first-child {
+      border-right: 7px $altBackground solid;
+    }
+
+    > img:nth-child(2) {
+      border-left: 7px $altBackground solid;
+    }
+
+    .author-container {
+      display: none; /* ensures image is centered within the container */
+    }
+
+    .description {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      border-bottom: 7px solid $altBackground;
+      margin-bottom: 30px;
     }
 
   }
