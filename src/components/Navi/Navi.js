@@ -65,7 +65,7 @@ export default function Navi() {
                     </a>
                 </li>
                 <li>
-                    <a onClick={() => navigate("/#projekte")} href="/#projekte">
+                    <a onClick={() => navigate("/#projekteMobile")} href="/#projekteMobile">
                         {t("header.projects")}
                     </a>
                 </li>
