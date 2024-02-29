@@ -5,6 +5,7 @@ import image1 from "./image1.webp";
 import image2 from "./image2.webp";
 import image3 from "./image3.webp";
 import timeline from "./timeline.webp";
+import timelineV from "./timelineVertical.webp";
 import aboutMeImage from "./aboutMeImage.webp";
 import { Slide } from "react-awesome-reveal";
 
@@ -40,7 +41,16 @@ export default function AboutUs() {
         <div className="container">
           <h6>{t("aboutUs.timelineSubtitle")}</h6>
           <h2>{t("aboutUs.timelineTitle")}</h2>
-          <img src={timeline} alt={t("aboutUs.timelineDescription")} />
+          <img
+            id="timelineImageDesktop"
+            src={timeline}
+            alt={t("aboutUs.timelineDescription")}
+          />
+          <img
+            id="timelineImageMobile"
+            src={timelineV}
+            alt={t("aboutUs.timelineDescription")}
+          />
         </div>
       </div>
       <div>
