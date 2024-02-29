@@ -59,6 +59,11 @@
 }
 
 #projekteMobile {
+
+  @media (min-width: 576px) {
+    display: none;
+  }
+
   background: $altLightBackground;
   padding-block: 30px;
 
