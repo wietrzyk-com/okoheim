@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
+
 import "./AboutUs.scss";
 import mainImage from "./mainImage.webp";
 import image1 from "./image1.webp";
@@ -11,6 +13,12 @@ import { Slide } from "react-awesome-reveal";
 
 export default function AboutUs() {
   const { t } = useTranslation();
+  const [aboutMeVisible, setAboutMeVisible] = useState(false);
+
+  const allParagraphs = t("aboutUs.aboutMeText").split("\n");
+
+  const firstParagraph = allParagraphs.shift();
+
   return (
     <section id="uber-uns" className="AboutUs">
       <div>
@@ -59,11 +67,30 @@ export default function AboutUs() {
           <Slide direction="right" triggerOnce>
             <div>
               <h2>{t("aboutUs.aboutMeTitle")}</h2>
-              {t("aboutUs.aboutMeText")
-                .split("\n")
-                .map((paragraph, i) => (
+              <p>{firstParagraph}</p>
+              {!aboutMeVisible && (
+                <p id="showMore">
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setAboutMeVisible(true);
+                      return false;
+                    }}
+                    href="/#"
+                  >
+                    {t("aboutUs.showMore")} &raquo;
+                  </a>
+                </p>
+              )}
+              <div
+                className={`restOfTheParagraphs ${
+                  aboutMeVisible ? "visible" : ""
+                }`}
+              >
+                {allParagraphs.map((paragraph, i) => (
                   <p key={i}>{paragraph}</p>
                 ))}
+              </div>
             </div>
           </Slide>
         </div>

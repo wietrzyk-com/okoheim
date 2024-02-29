@@ -47,6 +47,7 @@
     "timelineTitle": "Im Laufe der Zeit",
     "timelineSubtitle": "2014-2023",
     "aboutMeTitle": "Über mich",
+    "showMore": "Weiterlesen",
     "aboutMeText": "Ich bin Firmengründer und habe an der Technischen Universität Breslau im Fachbereich Umwelttechnik studiert, wo ich 2012 meinen Master of Engineering erwarb. 2017 erhielt ich die Lizenz zur Planung und Leitung von Bauarbeiten ohne Einschränkungen im Bereich Netze, Anlagen und Wärmegeräte, Lüftungen, Gas, Wasserversorgung sowie Abwasser  und Klimaanlagen. \nIch arbeite seit Jahren mit großen Unternehmen und Installationsgroßhändlern in Polen und Deutschland zusammen. Ebenfalls bin ich Mitglied der Niederschlesischen Ingenieurkammer für Bauwesen und der Deutschen Handwerkskammer in Berlin. \nPrivat verbringe ich gerne die Zeit aktiv mit meinen zwei Kindern und meiner Frau. Wir genießen die Berge und das Wasser beim Skifahren, Segeln und Fahrradfahren. "
   },
   "footer": {
@@ -56,7 +57,7 @@
     "person1Phone": "+49 151 20580348",
     "contactInformation": "Sie haben weitere Fragen oder wünschen eine Beratung? Dann rufen Sie uns an oder schreiben Sie uns eine WhatsApp. Wir freuen uns auf das Gespräch mit Ihnen.",
     "contactPhone": "+49 173 9307673",
-    "partnersTitle":  "Partner"
+    "partnersTitle": "Partner"
   },
   "offer": {
     "title": "Angebot",
